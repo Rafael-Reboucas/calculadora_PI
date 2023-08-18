@@ -1,0 +1,23 @@
+if(op==1){
+        printf("\n\t A soma e: %0.2f\n", result);
+        }
+        
+        if(op==2){
+        printf("\n\t A subtracao e: %0.2f\n", result);
+        }
+        
+        if(op==3){
+        printf("\n\t A multiplicacao e: %0.2f\n", result);
+        }
+        
+        if(op==4){
+        printf("\n\t A divisao e: %0.2f\n", result);
+        }
+       
+        printf("\nDeseja continuar??\nSe sim, digite 1\n");
+        scanf("%d", &op);
+    }
+    
+ while(op==1);
+    
+}
